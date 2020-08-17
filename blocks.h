@@ -8,7 +8,7 @@ static const Block blocks[] = {
     { "",   "sh -c ~/scripts/dwm/dwm-memory.sh | sed 's/^/  /;s/$/ /'",    60,          4 },
     { "",   "sh -c ~/scripts/dwm/dwm-network.sh | sed 's/^/  /;s/$/ /'",   60,          5 },
     { "",   "sh -c ~/scripts/dwm/dwm-pavolume.sh | sed 's/^/  /;s/$/ /'",  0,           6 },
-    { "",   "sh -c ~/scripts/dwm/dwm-battery.sh | sed 's/^/  /;s/$/ /'",   7200,        7 },
+    { "",   "sh -c ~/scripts/dwm/dwm-battery.sh | sed 's/^/  /;s/$/ /'",   30,        7 },
     { "",   "sh -c ~/scripts/dwm/dwm-datetime.sh | sed 's/^/  /;s/$/ /'",  30,          8 },
 };
 
